@@ -77,7 +77,7 @@ function assignUId() {
 function setPrototype(groupId) {
   var imgElements = document.getElementsByTagName("img");
   for (let i = 0; i < 7; i++) {
-    imgElements[i].setAttribute("src", "assets/" + groupId + "/" + i + ".png");
+    imgElements[i].setAttribute("src", "assets/" + "EmptyMockup.png");//+ groupId + "/" + i + ".png");
   }
 }
 
